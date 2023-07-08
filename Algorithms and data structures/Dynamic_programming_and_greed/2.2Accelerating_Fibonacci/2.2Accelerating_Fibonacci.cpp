@@ -5,7 +5,7 @@
 
 #include <iostream>
 
-int dp[10];
+int dp[50];
 
 int fib(int n)
 {
@@ -37,7 +37,7 @@ int main()
 	memset(dp, -1, sizeof(dp));
 
 
-	for (int n = 0; n <= 40; n++) {
+	for (int n = 0; n <= 40; ++n) {
 		
 	 std::cout << n << '\t' << fib(n) << '\n';
     }
