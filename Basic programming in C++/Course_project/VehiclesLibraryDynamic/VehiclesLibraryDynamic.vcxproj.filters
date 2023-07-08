@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AirVehicles">
+      <UniqueIdentifier>{8eb16e78-c85d-4e2c-ae5b-1ee73be5f641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DynamicVehicles">
+      <UniqueIdentifier>{2856e61d-2e1d-44f8-ae9d-60956517f3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraundVehicles">
+      <UniqueIdentifier>{b861ec38-067f-4708-bfac-df4ba9e3c330}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CMake\AirVehicles\AirVehicles.cpp">
+      <Filter>AirVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\AirVehicles\Broom.cpp">
+      <Filter>AirVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\AirVehicles\CarpetPlane.cpp">
+      <Filter>AirVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\AirVehicles\Eagle.cpp">
+      <Filter>AirVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\DynamicVehicles\DynamicVehicles.cpp">
+      <Filter>DynamicVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\GraundVehicles\BootsAllTerrain.cpp">
+      <Filter>GraundVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\GraundVehicles\Camel.cpp">
+      <Filter>GraundVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\GraundVehicles\CamelSpeedWalker.cpp">
+      <Filter>GraundVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\GraundVehicles\Centaur.cpp">
+      <Filter>GraundVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\GraundVehicles\GraundVehicles.cpp">
+      <Filter>GraundVehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CMake\Functions.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CMake\AirVehicles\AirVehicles.h">
+      <Filter>AirVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\AirVehicles\Broom.h">
+      <Filter>AirVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\AirVehicles\CarpetPlane.h">
+      <Filter>AirVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\AirVehicles\Eagle.h">
+      <Filter>AirVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\DynamicVehicles\DynamicVehicles.h">
+      <Filter>DynamicVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\GraundVehicles\BootsAllTerrain.h">
+      <Filter>GraundVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\GraundVehicles\Camel.h">
+      <Filter>GraundVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\GraundVehicles\CamelSpeedWalker.h">
+      <Filter>GraundVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\GraundVehicles\Centaur.h">
+      <Filter>GraundVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\GraundVehicles\GraundVehicles.h">
+      <Filter>GraundVehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CMake\Functions.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
