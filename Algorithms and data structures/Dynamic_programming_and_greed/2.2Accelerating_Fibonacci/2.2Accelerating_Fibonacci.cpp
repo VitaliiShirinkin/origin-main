@@ -4,6 +4,7 @@
 //Сложность алгоритма по скорости О(n). Сложность по памяти О(n).
 
 #include <iostream>
+#include <algorithm>
 
 int dp[50];
 
@@ -34,8 +35,7 @@ int main()
 {
 
 	//инициализация массива dp как - 1
-	memset(dp, -1, sizeof(dp));
-
+ std::fill(std::begin(dp),  std::end(dp), -1); 
 
 	for (int n = 0; n <= 40; ++n) {
 		
@@ -57,10 +57,9 @@ int main()
 //    }
 //
 //    result = fib[n];
-//    return result;
-//
+// 
 //    delete[] fib;
-//
+//    return result;
 //}
 //
 //int main()
