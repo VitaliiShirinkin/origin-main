@@ -27,7 +27,7 @@ int fib(int n)
 	else
 		second = fib(n - 2);
 
-	// запоминание
+	// запоминание (memoization) 
 	return dp[n] = first + second;
 }
 
