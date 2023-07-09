@@ -8,10 +8,10 @@
 
 int fibo (int n){
 const int MAXN = 1000;
-  static int c [MAXN];
+  static int c [MAXN];//создаём ст. массив и инициализирующий его нулями
   if (n == 0) return 0;
   if (n == 1) return 1;
-  if (c[n]>0) return c[n];
+  if (c[n]>0) return c[n];//завершаем бесконечный цикл рекурсии
   return c[n] = fibo (n-1) + fibo(n-2);
 }
 
