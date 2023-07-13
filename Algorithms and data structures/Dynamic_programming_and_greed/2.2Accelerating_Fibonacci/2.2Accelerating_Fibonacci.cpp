@@ -5,8 +5,6 @@
 
 
 #include <iostream>
-#include <Windows.h>
-
 
 int fibo (int n){
 const int MAXN = 1000;
@@ -18,10 +16,6 @@ const int MAXN = 1000;
 }
 
 int main() {
-	setlocale(LC_ALL, "Russian");
-	SetConsoleCP(1251);
-	SetConsoleOutputCP(1251);
-
   for(int n=0; n <= 15; n++){
   std::cout << n << '\t'<< fibo(n)<<"\n";
   }
