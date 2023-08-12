@@ -33,8 +33,8 @@ void chooseAction(int& action) {
 		std::cout << "1. «арегистрировать транспорт\n";
 		std::cout << "¬ыберите действие: ";
 		std::cin >> action;
-		                                                                                      // удаление '\n' чтобы не возникало бесконечного цикла
-		std::cin.clear();                                                                     // на случай, если предыдущий ввод завершилс€ с ошибкой
+		                                                                                    // удаление '\n' чтобы не возникало бесконечного цикла
+		std::cin.clear();                                                                   // на случай, если предыдущий ввод завершилс€ с ошибкой
 
 		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
@@ -166,13 +166,15 @@ int getNumberVehicle(int racingType, int& numberVehicle) {
 
 //___________выбор участника в зависимости от введеного номера транспортного средства________________
 
-DynamicVehicles::Vehicles chooseVehicle(
+DynamicVehicles::Vehicles chooseVehicle
+(
 	int step,
 	int numberVehicle,
 	std::string& registeredVehicles,
 	DynamicVehicles::Vehicles* vehiclesArray,
 	int& i,
-	float distance)
+	float distance
+)
 {
 	DynamicVehicles::Vehicles* ptr_vehicle;
 
