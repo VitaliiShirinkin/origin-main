@@ -23,10 +23,9 @@ int main()
 
 
     std::cout << "Выходные данные: ";
-    auto itertns = ivect.begin();
 
-    std::for_each(ivect.begin(), ivect.end(), [&itertns](const int& n) {if(1 == n %2) {*itertns = n * 3;} ++itertns;});
-    std::for_each(ivect.begin(), ivect.end(), [](const int& n) {std::cout << '\t' << n;});
+    std::for_each(ivect.begin(), ivect.end(), [](int& n) {if (1 == n % 2) { n = n * 3; }; });
+    std::for_each(ivect.begin(), ivect.end(), [](int& n) {std::cout << '\t' << n;});
 
     return 0;
 }
